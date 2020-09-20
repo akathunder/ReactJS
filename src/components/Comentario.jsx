@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 const Comentario = ({sujeto}) => {
     return ( 
         <Fragment>
-            <h1>Comentarios</h1> 
+            <h1>#Comentarios</h1> 
             <hr/>
             <div className="media ml-3">
                 <img className="mr-3" src={sujeto.urlImage} alt=""/>
