@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Jsx from './components/Jsx'
+import List from './components/List'
+import Forms from './components/Forms'
+import FormHooks from './components/FormHooks'
+import EjemploUno from './components/EjemploUno'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edita <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="conatainer mt-5">
+      {/* <h1>Hola JSX</h1> */}
+      {/* <Jsx/> */}
+      {/* <List/> */}
+      {/* <Forms/> */}
+      {/* <FormHooks/> */}
+      <EjemploUno/>
     </div>
   );
 }
